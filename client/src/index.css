@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-light {
+    @apply px-3 py-1 bg-light text-primary border border-primary rounded-md 
+}

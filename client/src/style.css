@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-size: 14px;
+    color: black;
+  }
+  
+  .input-err {
+    color: #ff2f2f;
+    font-size: 14px;
+  }
+  
+  .required::after {
+    content: " *";
+    color: rgb(255, 81, 81);
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 600;
+  }
+  
